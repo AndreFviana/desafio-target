@@ -114,11 +114,11 @@ Na linha 123 Utilizei o método 'reduce' para calcular o total do faturamento e 
 Já na linha 125 utilizei a estrura de repetição 'for' para iterar sobre o valor total por estado e imprimir o percentual de cada um.
 */
 const faturamentoTotalMensal = `{
-    "SP" : "67.836.43",
-    "RJ" : "36.678.66",
-    "MG" : "29.229.88",
-    "ES" : "27.165.48",
-    "Outros" : "19.849.53"
+    "SP" : 67.836.43,
+    "RJ" : 36.678.66,
+    "MG" : 29.229.88,
+    "ES" : 27.165.48,
+    "Outros" : 19.849.53
 }`
 const faturamentoTotalMensalJson = JSON.parse(faturamentoTotalMensal);
 const faturamentoData = Object.values(faturamentoTotalMensalJson);
